@@ -28,7 +28,7 @@ cargada:true;
        //resp contendra toda la informacion del archivo json convertido en obj JavaScript
        this.info=resp;
        this.cargada=true;
-       console.log(resp);//de esta manera muestro todos los datos
+       //console.log(resp);//de esta manera muestro todos los datos
        //console.log(resp['email']); //de esta manera ,uestro las propiedades de interes
        ////////////////////////////////////////////////////////
       
@@ -44,7 +44,7 @@ cargada:true;
        //resp contendra toda la informacion del archivo json convertido en obj JavaScript
        this.equipo=resp;
        this.cargada=true;
-       console.log(resp);//de esta manera muestro todos los datos
+       //console.log(resp);//de esta manera muestro todos los datos
        //console.log(resp['email']); //de esta manera ,uestro las propiedades de interes
        ////////////////////////////////////////////////////////
       
