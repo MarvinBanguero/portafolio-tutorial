@@ -19,7 +19,7 @@ producto:ProductoInterface[]=[];
      this.http.get('https://angular-html-2c91a.firebaseio.com/producto_idx.json')
      .subscribe((resp:ProductoInterface[])=>{
           this.producto=resp;
-          console.log(resp);
+        
           this.cargando=false;
      }
       )
